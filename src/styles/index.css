@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.active{
+  border-bottom: 5px solid yellowgreen;
+}
+
+.navbarb{
+  box-shadow: 1px 2px 8px 2px gray;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  
+}
+
+.bgpicture{
+  background-image: url('../styles/library.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bgmiddle{
+  height: 50vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight: bold;
+  background-image: linear-gradient(rgb(47, 46, 46,0.7),rgb(43, 43, 43,0.7)),url();
+  font-size: x-large;
+}
+
+.bgmiddle >span{
+  font-size: 1rem;
+}
+
+.tbd{
+  margin: auto;
+}
+
+.tbd svg{
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+
+.tbd strong{
+  font-size: 1.2rem;
+}
+
+.tbd span{
+  box-shadow: 1px 2px 4px 3px black;
+  padding:1.5rem 1rem;
+}
+
+.foooterul{
+  list-style: none;
+}
+
+.foooterul li{
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+  padding:0 15px;
+  margin: 1.5rem 0;
+  box-shadow: 0px 1px 5px 1px lightgreen;
+  border-radius: 15px;
+}
+
+.foooterul svg{
+  font-size: 3rem;
+  margin: 1rem;
+  color: #2b7df9;
+}
+
+.sidebarActive{
+  border-bottom: none;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.activeLink{
+  background-color: #2b7df9;
+  color: white !important;
+}
+
+.courseContainer{
+  display: grid;
+  grid-template-columns: repeat(3,10rem);
+  
+}
+
